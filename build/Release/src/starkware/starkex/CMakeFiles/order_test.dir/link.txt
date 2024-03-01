@@ -1,1 +1,0 @@
-/usr/bin/clang++  -std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC -O3 -DNDEBUG -O3 CMakeFiles/order_test.dir/order_test.cc.o -o order_test  libstarkex.a -lgtest -lgtest_main -lpthread ../crypto/libcrypto.a ../algebra/libalgebra.a 

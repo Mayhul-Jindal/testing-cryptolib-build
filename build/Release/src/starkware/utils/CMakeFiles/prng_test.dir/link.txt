@@ -1,1 +1,0 @@
-/usr/bin/clang++  -std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC -O3 -DNDEBUG -O3 CMakeFiles/prng_test.dir/prng_test.cc.o -o prng_test  -lgtest -lgtest_main -lpthread 

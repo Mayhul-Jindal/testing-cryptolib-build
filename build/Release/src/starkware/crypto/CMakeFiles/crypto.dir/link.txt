@@ -1,2 +1,0 @@
-/usr/bin/ar qc libcrypto.a CMakeFiles/crypto.dir/elliptic_curve_constants.cc.o CMakeFiles/crypto.dir/pedersen_hash.cc.o CMakeFiles/crypto.dir/ecdsa.cc.o
-/usr/bin/ranlib libcrypto.a

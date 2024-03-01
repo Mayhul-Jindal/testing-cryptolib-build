@@ -1,1 +1,0 @@
-/usr/bin/clang++ -fPIC  -std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC -O3 -DNDEBUG -O3 -shared -Wl,-soname,libcrypto_c_exports.so -o libcrypto_c_exports.so CMakeFiles/crypto_c_exports.dir/pedersen_hash.cc.o CMakeFiles/crypto_c_exports.dir/ecdsa.cc.o CMakeFiles/crypto_c_exports.dir/utils.cc.o  ../libcrypto.a ../../algebra/libalgebra.a 

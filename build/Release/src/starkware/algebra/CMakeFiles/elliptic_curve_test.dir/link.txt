@@ -1,1 +1,0 @@
-/usr/bin/clang++  -std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC -O3 -DNDEBUG -O3 CMakeFiles/elliptic_curve_test.dir/elliptic_curve_test.cc.o -o elliptic_curve_test  libalgebra.a -lgtest -lgtest_main -lpthread 

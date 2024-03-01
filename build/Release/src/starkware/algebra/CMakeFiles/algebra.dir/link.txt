@@ -1,2 +1,0 @@
-/usr/bin/ar qc libalgebra.a CMakeFiles/algebra.dir/prime_field_element.cc.o
-/usr/bin/ranlib libalgebra.a
