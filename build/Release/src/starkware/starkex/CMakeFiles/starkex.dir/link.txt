@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstarkex.a CMakeFiles/starkex.dir/order.cc.o
+/usr/bin/ranlib libstarkex.a

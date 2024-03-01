@@ -1,0 +1,1 @@
+/usr/bin/clang++  -std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC -O3 -DNDEBUG -O3 CMakeFiles/big_int_test.dir/big_int_test.cc.o -o big_int_test  -lgtest -lgtest_main -lpthread 

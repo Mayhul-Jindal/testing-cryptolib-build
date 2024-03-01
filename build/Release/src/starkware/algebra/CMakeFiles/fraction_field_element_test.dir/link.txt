@@ -1,0 +1,1 @@
+/usr/bin/clang++  -std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC -O3 -DNDEBUG -O3 CMakeFiles/fraction_field_element_test.dir/fraction_field_element_test.cc.o -o fraction_field_element_test  libalgebra.a -lgtest -lgtest_main -lpthread 

@@ -1,0 +1,395 @@
+Start testing: Mar 01 15:34 IST
+----------------------------------------------------------
+1/10 Testing: big_int_test
+1/10 Test: big_int_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/algebra/big_int_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/algebra
+"big_int_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 15 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 15 tests from BigInt
+[ RUN      ] BigInt.Random
+[       OK ] BigInt.Random (0 ms)
+[ RUN      ] BigInt.Div
+[       OK ] BigInt.Div (0 ms)
+[ RUN      ] BigInt.DivByZero
+[       OK ] BigInt.DivByZero (0 ms)
+[ RUN      ] BigInt.DivRandom
+[       OK ] BigInt.DivRandom (0 ms)
+[ RUN      ] BigInt.DivNoRemainder
+[       OK ] BigInt.DivNoRemainder (0 ms)
+[ RUN      ] BigInt.NumLeadingZeros
+[       OK ] BigInt.NumLeadingZeros (0 ms)
+[ RUN      ] BigInt.Multiplication
+[       OK ] BigInt.Multiplication (0 ms)
+[ RUN      ] BigInt.MulMod
+[       OK ] BigInt.MulMod (1 ms)
+[ RUN      ] BigInt.InvMod
+[       OK ] BigInt.InvMod (67 ms)
+[ RUN      ] BigInt.InvMod_Zero
+[       OK ] BigInt.InvMod_Zero (0 ms)
+[ RUN      ] BigInt.UserLiteral
+[       OK ] BigInt.UserLiteral (0 ms)
+[ RUN      ] BigInt.ConstexprTest
+[       OK ] BigInt.ConstexprTest (0 ms)
+[ RUN      ] BigInt.BigIntWidening
+[       OK ] BigInt.BigIntWidening (0 ms)
+[ RUN      ] BigInt.ConstexprBigIntWidening
+[       OK ] BigInt.ConstexprBigIntWidening (0 ms)
+[ RUN      ] BigInt.UserLiteral2
+[       OK ] BigInt.UserLiteral2 (0 ms)
+[----------] 15 tests from BigInt (68 ms total)
+
+[----------] Global test environment tear-down
+[==========] 15 tests from 1 test suite ran. (68 ms total)
+[  PASSED  ] 15 tests.
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Passed.
+"big_int_test" end time: Mar 01 15:34 IST
+"big_int_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/10 Testing: prime_field_element_test
+2/10 Test: prime_field_element_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/algebra/prime_field_element_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/algebra
+"prime_field_element_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 10 tests from 2 test suites.
+[----------] Global test environment set-up.
+[----------] 9 tests from PrimeFieldElementTest
+[ RUN      ] PrimeFieldElementTest.One
+[       OK ] PrimeFieldElementTest.One (0 ms)
+[ RUN      ] PrimeFieldElementTest.OneNegTest
+[       OK ] PrimeFieldElementTest.OneNegTest (0 ms)
+[ RUN      ] PrimeFieldElementTest.AddOneToMinusOne
+[       OK ] PrimeFieldElementTest.AddOneToMinusOne (0 ms)
+[ RUN      ] PrimeFieldElementTest.AddSimple
+[       OK ] PrimeFieldElementTest.AddSimple (0 ms)
+[ RUN      ] PrimeFieldElementTest.Inv
+[       OK ] PrimeFieldElementTest.Inv (0 ms)
+[ RUN      ] PrimeFieldElementTest.RandomInv
+[       OK ] PrimeFieldElementTest.RandomInv (0 ms)
+[ RUN      ] PrimeFieldElementTest.InvBenchmark
+[       OK ] PrimeFieldElementTest.InvBenchmark (266 ms)
+[ RUN      ] PrimeFieldElementTest.Pow
+[       OK ] PrimeFieldElementTest.Pow (0 ms)
+[ RUN      ] PrimeFieldElementTest.PowRandom
+[       OK ] PrimeFieldElementTest.PowRandom (0 ms)
+[----------] 9 tests from PrimeFieldElementTest (267 ms total)
+
+[----------] 1 test from PrimeField
+[ RUN      ] PrimeField.Random
+[       OK ] PrimeField.Random (0 ms)
+[----------] 1 test from PrimeField (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 2 test suites ran. (267 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.27 sec
+----------------------------------------------------------
+Test Passed.
+"prime_field_element_test" end time: Mar 01 15:34 IST
+"prime_field_element_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/10 Testing: fraction_field_element_test
+3/10 Test: fraction_field_element_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/algebra/fraction_field_element_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/algebra
+"fraction_field_element_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from FractionFieldElement
+[ RUN      ] FractionFieldElement.Equality
+[       OK ] FractionFieldElement.Equality (0 ms)
+[ RUN      ] FractionFieldElement.Addition
+[       OK ] FractionFieldElement.Addition (0 ms)
+[ RUN      ] FractionFieldElement.UnaryMinus
+[       OK ] FractionFieldElement.UnaryMinus (0 ms)
+[ RUN      ] FractionFieldElement.Subtraction
+[       OK ] FractionFieldElement.Subtraction (0 ms)
+[ RUN      ] FractionFieldElement.Multiplication
+[       OK ] FractionFieldElement.Multiplication (0 ms)
+[ RUN      ] FractionFieldElement.Inverse
+[       OK ] FractionFieldElement.Inverse (0 ms)
+[ RUN      ] FractionFieldElement.Division
+[       OK ] FractionFieldElement.Division (0 ms)
+[ RUN      ] FractionFieldElement.ToBaseFieldElement
+[       OK ] FractionFieldElement.ToBaseFieldElement (0 ms)
+[----------] 8 tests from FractionFieldElement (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"fraction_field_element_test" end time: Mar 01 15:34 IST
+"fraction_field_element_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/10 Testing: elliptic_curve_test
+4/10 Test: elliptic_curve_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/algebra/elliptic_curve_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/algebra
+"elliptic_curve_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from EllipticCurve
+[ RUN      ] EllipticCurve.DoublePointTest
+[       OK ] EllipticCurve.DoublePointTest (0 ms)
+[ RUN      ] EllipticCurve.MulByScalarTest
+[       OK ] EllipticCurve.MulByScalarTest (1 ms)
+[ RUN      ] EllipticCurve.MulByZeroTest
+[       OK ] EllipticCurve.MulByZeroTest (1 ms)
+[ RUN      ] EllipticCurve.MulPowerBecomesZeroTest
+[       OK ] EllipticCurve.MulPowerBecomesZeroTest (0 ms)
+[ RUN      ] EllipticCurve.PlusPointTest
+[       OK ] EllipticCurve.PlusPointTest (0 ms)
+[ RUN      ] EllipticCurve.MinusPointTest
+[       OK ] EllipticCurve.MinusPointTest (0 ms)
+[ RUN      ] EllipticCurve.RandomPointOnCurve
+[       OK ] EllipticCurve.RandomPointOnCurve (0 ms)
+[ RUN      ] EllipticCurve.TestConvertTo
+[       OK ] EllipticCurve.TestConvertTo (0 ms)
+[----------] 8 tests from EllipticCurve (5 ms total)
+
+[----------] Global test environment tear-down
+[==========] 8 tests from 1 test suite ran. (5 ms total)
+[  PASSED  ] 8 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"elliptic_curve_test" end time: Mar 01 15:34 IST
+"elliptic_curve_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/10 Testing: math_test
+5/10 Test: math_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/utils/math_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/utils
+"math_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 10 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 10 tests from Math
+[ RUN      ] Math.Pow2
+[       OK ] Math.Pow2 (0 ms)
+[ RUN      ] Math.Pow2_0
+[       OK ] Math.Pow2_0 (0 ms)
+[ RUN      ] Math.Pow2_63
+[       OK ] Math.Pow2_63 (0 ms)
+[ RUN      ] Math.Log2Floor_0
+[       OK ] Math.Log2Floor_0 (0 ms)
+[ RUN      ] Math.Log2Floor_1
+[       OK ] Math.Log2Floor_1 (0 ms)
+[ RUN      ] Math.Log2Floor_31
+[       OK ] Math.Log2Floor_31 (0 ms)
+[ RUN      ] Math.Log2Floor_32
+[       OK ] Math.Log2Floor_32 (0 ms)
+[ RUN      ] Math.Log2Floor_33
+[       OK ] Math.Log2Floor_33 (0 ms)
+[ RUN      ] Math.Log2Floor_AllBitsSet
+[       OK ] Math.Log2Floor_AllBitsSet (0 ms)
+[ RUN      ] Math.GenericPow
+[       OK ] Math.GenericPow (0 ms)
+[----------] 10 tests from Math (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 10 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"math_test" end time: Mar 01 15:34 IST
+"math_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/10 Testing: prng_test
+6/10 Test: prng_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/utils/prng_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/utils
+"prng_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from Prng
+[ RUN      ] Prng.PartialRange
+[       OK ] Prng.PartialRange (0 ms)
+[ RUN      ] Prng.FullRange
+[       OK ] Prng.FullRange (0 ms)
+[----------] 2 tests from Prng (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"prng_test" end time: Mar 01 15:34 IST
+"prng_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/10 Testing: elliptic_curve_constants_test
+7/10 Test: elliptic_curve_constants_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/crypto/elliptic_curve_constants_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/crypto
+"elliptic_curve_constants_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from EllipticCurveConstants
+[ RUN      ] EllipticCurveConstants.MulByCurveOrderTest
+[       OK ] EllipticCurveConstants.MulByCurveOrderTest (28 ms)
+[----------] 1 test from EllipticCurveConstants (28 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (28 ms total)
+[  PASSED  ] 1 test.
+<end of output>
+Test time =   0.03 sec
+----------------------------------------------------------
+Test Passed.
+"elliptic_curve_constants_test" end time: Mar 01 15:34 IST
+"elliptic_curve_constants_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/10 Testing: pedersen_hash_test
+8/10 Test: pedersen_hash_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/crypto/pedersen_hash_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/crypto
+"pedersen_hash_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from PedersenHash
+[ RUN      ] PedersenHash.Zero
+[       OK ] PedersenHash.Zero (0 ms)
+[ RUN      ] PedersenHash.Correctness
+[       OK ] PedersenHash.Correctness (0 ms)
+[ RUN      ] PedersenHash.Benchmark
+[       OK ] PedersenHash.Benchmark (501 ms)
+[----------] 3 tests from PedersenHash (502 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (502 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.51 sec
+----------------------------------------------------------
+Test Passed.
+"pedersen_hash_test" end time: Mar 01 15:34 IST
+"pedersen_hash_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+9/10 Testing: ecdsa_test
+9/10 Test: ecdsa_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/crypto/ecdsa_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/crypto
+"ecdsa_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 5 tests from 3 test suites.
+[----------] Global test environment set-up.
+[----------] 2 tests from ECDSA
+[ RUN      ] ECDSA.PublicKeyFromPrivate
+[       OK ] ECDSA.PublicKeyFromPrivate (10 ms)
+[ RUN      ] ECDSA.SignAndVerify
+[       OK ] ECDSA.SignAndVerify (120 ms)
+[----------] 2 tests from ECDSA (130 ms total)
+
+[----------] 2 tests from VerifyEcdsa
+[ RUN      ] VerifyEcdsa.Regression
+[       OK ] VerifyEcdsa.Regression (23 ms)
+[ RUN      ] VerifyEcdsa.Benchmark
+[       OK ] VerifyEcdsa.Benchmark (186 ms)
+[----------] 2 tests from VerifyEcdsa (209 ms total)
+
+[----------] 1 test from VerifyEcdsaPartialKey
+[ RUN      ] VerifyEcdsaPartialKey.Benchmark
+[       OK ] VerifyEcdsaPartialKey.Benchmark (208 ms)
+[----------] 1 test from VerifyEcdsaPartialKey (208 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 3 test suites ran. (548 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.55 sec
+----------------------------------------------------------
+Test Passed.
+"ecdsa_test" end time: Mar 01 15:34 IST
+"ecdsa_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+10/10 Testing: order_test
+10/10 Test: order_test
+Command: "/home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/starkex/order_test"
+Directory: /home/buri/Tanx/testing-cryptolib-build/crypto-cpp/build/Release/src/starkware/starkex
+"order_test" start time: Mar 01 15:34 IST
+Output:
+----------------------------------------------------------
+Running main() from ./googletest/src/gtest_main.cc
+[==========] Running 5 tests from 4 test suites.
+[----------] Global test environment set-up.
+[----------] 1 test from SettlementOrder
+[ RUN      ] SettlementOrder.Regression
+[       OK ] SettlementOrder.Regression (1 ms)
+[----------] 1 test from SettlementOrder (1 ms total)
+
+[----------] 1 test from TransferOrder
+[ RUN      ] TransferOrder.Regression
+[       OK ] TransferOrder.Regression (0 ms)
+[----------] 1 test from TransferOrder (0 ms total)
+
+[----------] 1 test from ConditionalTransferOrder
+[ RUN      ] ConditionalTransferOrder.Regression
+[       OK ] ConditionalTransferOrder.Regression (1 ms)
+[----------] 1 test from ConditionalTransferOrder (1 ms total)
+
+[----------] 2 tests from GetOrderIdFromMessage
+[ RUN      ] GetOrderIdFromMessage.Correctness
+[       OK ] GetOrderIdFromMessage.Correctness (0 ms)
+[ RUN      ] GetOrderIdFromMessage.MessageTooLarge
+[       OK ] GetOrderIdFromMessage.MessageTooLarge (0 ms)
+[----------] 2 tests from GetOrderIdFromMessage (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 4 test suites ran. (3 ms total)
+[  PASSED  ] 5 tests.
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"order_test" end time: Mar 01 15:34 IST
+"order_test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 01 15:34 IST

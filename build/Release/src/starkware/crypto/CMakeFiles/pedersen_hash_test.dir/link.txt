@@ -1,0 +1,1 @@
+/usr/bin/clang++  -std=c++17 -Werror -Wall -Wextra -fno-strict-aliasing -fPIC -O3 -DNDEBUG -O3 CMakeFiles/pedersen_hash_test.dir/pedersen_hash_test.cc.o -o pedersen_hash_test  libcrypto.a -lgtest -lgtest_main -lpthread ../algebra/libalgebra.a 
